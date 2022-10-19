@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var base_url = 'http://' + location.hostname + '/';
+  var base_url = 'https://proyectoscete.tamaulipas.gob.mx/rh_identidad/';
 
   $('.confirmarsesion').on("click", function(e) {
     e.preventDefault();
