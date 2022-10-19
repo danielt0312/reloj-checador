@@ -1,0 +1,148 @@
+body {
+	width: 99%;
+}
+
+.login {
+	padding: 30px;
+}
+
+@media (max-width: 767px) {
+	.oculto {
+		display: none !important;
+	}
+}
+
+.titulo {
+	letter-spacing: -1px;
+	padding-left: 30px;
+	color: #495057;
+	display: block;
+	font-size: 28px;
+	font-weight: bold;
+	height: 16px;
+	margin-bottom: 55px;
+	margin-top: 20px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+.recuperar {
+	margin-top: 100px;
+	padding-left: 30px;
+	color: #495057;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.fondo {
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	filter: contrast(110%);
+	background: linear-gradient(-60deg, #bc955c 3%, #bc955c 15%, #ab0033 60%, #ab0033);
+	background-size: 300% 300%;
+	animation: gradientBG 20s ease infinite;
+}
+
+.fondo label {
+	color: white;
+	font-size: 90px;
+	font-weight: bold;
+	padding-top: 26%;
+	line-height: normal;
+	letter-spacing: -2px;
+}
+
+.logo {
+	width: 100%;
+}
+
+.logo2 {
+	width: 40%;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+label {
+	color: #495057;
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	height: 16px;
+	margin-bottom: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+.log {
+	padding: 20px;
+	color: #242424;
+	display: block;
+	font-size: 18px;
+	font-weight: 600;
+	height: 16px;
+	margin-bottom: 10px;
+	font-family: 'Roboto Condensed', sans-serif;
+	text-transform: uppercase;
+}
+
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	resize: vertical;
+	margin-bottom: 20px;
+}
+
+input[type=password], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	resize: vertical;
+	margin-bottom: 20px;
+}
+
+#submit {
+	color: #c4c4c4;
+	background-color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	cursor: pointer;
+	float: right;
+	border: 1px solid #c4c4c4;
+	border-radius: 0px;
+}
+
+#submit:hover {
+	background-color: #c4c4c4;
+	color: #fff;
+}
+
+#submit:focus {
+	color: #6d6d6d;
+	font-weight: bold;
+}
+
+#submit:active {
+	color: #6d6d6d;
+	font-weight: bold;
+}
