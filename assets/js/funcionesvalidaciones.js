@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  var base_url = 'http://' + location.hostname + '/rh';
+  var base_url = 'http://' + location.hostname + '/';
 
   $('.confirmarsesion').on("click", function(e) {
     e.preventDefault();
