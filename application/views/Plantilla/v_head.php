@@ -14,8 +14,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 	 <title>Secretaría de Educación | Gobierno del Estado de Tamaulipas</title>
-	 <link rel="icon" href="https://www.tamaulipas.gob.mx/educacion/wp-content/uploads/sites/3/2016/10/cropped-cropped-logotam-1-32x32.png" sizes="32x32" />
-	<link rel="icon" href="https://www.tamaulipas.gob.mx/wp-content/uploads/2022/10/cropped-escudo-tam-dorado-192x192.png" sizes="192x192" />
+	 
+<link rel="https://api.w.org/" href="https://www.tamaulipas.gob.mx/educacion/wp-json/" /><link rel="icon" href="https://www.tamaulipas.gob.mx/educacion/wp-content/uploads/sites/3/2022/10/cropped-escudo-tam-dorado-32x32.png" sizes="32x32" />
+<link rel="icon" href="https://www.tamaulipas.gob.mx/educacion/wp-content/uploads/sites/3/2022/10/cropped-escudo-tam-dorado-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.tamaulipas.gob.mx/educacion/wp-content/uploads/sites/3/2022/10/cropped-escudo-tam-dorado-180x180.png" />
 
 	<link href="<?=base_url()?>assets/css/plantilla/bootstrap.min.css" rel="stylesheet">
 	<link href="<?=base_url()?>assets/css/plantilla/sweetalert.css" rel="stylesheet">
