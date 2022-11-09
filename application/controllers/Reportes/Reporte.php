@@ -58,7 +58,7 @@ class Reporte extends CI_Controller {
                             'name'      => 'Arial',
                             'bold'      => false,                          
                             'color'     => array(
-                                'rgb'   => 'FFFFFF'
+                                'rgb'   => '000000'
                             )
                         ),
                         'borders' => array(
