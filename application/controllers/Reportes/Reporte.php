@@ -37,7 +37,7 @@ class Reporte extends CI_Controller {
                                 'strike' => false,
                                 'size'   => 10,
                                 'color' => array(
-                                'rgb'   => '000000'
+                                'rgb'   => 'FFFFFF'
                                 )
                          ),
 
@@ -49,7 +49,7 @@ class Reporte extends CI_Controller {
 
                         'fill' => array(
                                 'type' => PHPExcel_Style_Fill::FILL_SOLID,
-                                'color' => array('rgb' => 'D9E3FF')
+                                'color' => array('rgb' => 'ab0033')
                         )
                     );
         
@@ -58,7 +58,7 @@ class Reporte extends CI_Controller {
                             'name'      => 'Arial',
                             'bold'      => false,                          
                             'color'     => array(
-                                'rgb'   => '000000'
+                                'rgb'   => 'FFFFFF'
                             )
                         ),
                         'borders' => array(
