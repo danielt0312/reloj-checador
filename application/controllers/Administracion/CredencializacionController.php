@@ -149,6 +149,7 @@ class CredencializacionController extends CI_Controller{
             header("Content-type: application/zip");
             header("Content-Disposition: attachment; filename=archivos-credencial-".$personal_id.".zip");
             header("Cache-Control: no-cache, must-revalidate");
+            header('Content-Length: ' . filesize($archivo));
             header("Expires: 0");
             readfile($archivo);
             unlink($archivo);
