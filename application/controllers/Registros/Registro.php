@@ -586,7 +586,10 @@ class Registro extends CI_Controller {
     }
 
     public function gafetePersonal($personal_id){
-        $data['personal'] = $this->Personal->getPersonalCifrado(['id_cifrado' => $personal_id]);
+        // se agrego porque recibe numero o string
+        $esNumero = is_numeric($personal_id);
+
+        $data['personal'] = $this->Personal->getPersonalCifrado([$esNumero ? 'id' : 'id_cifrado' => $personal_id]);
         $idpersonal = $data['personal'][0]->id;
         
         if (count($data['personal']) > 0) {
@@ -608,8 +611,13 @@ class Registro extends CI_Controller {
     }
 
     public function gafetePersonalTrasera($personal_id){
-        $data['personal'] = $this->Personal->getPeronal(['id' => $personal_id]);
+        // se agrego porque recibe numero o string
+        $esNumero = is_numeric($personal_id);
+
+        $data['personal'] = $this->Personal->getPeronal([$esNumero ? 'id' : 'id_cifrado' => $personal_id]);
+
         $idpersonal = $data['personal'][0]->id;
+        
 
         if (count($data['personal']) > 0) {
             $data['personal']           = $data['personal'][0];
