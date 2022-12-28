@@ -34,7 +34,7 @@
 		<!-- <div class="avatar">
 			<img src="<?=base_url()?>assets/img/usuariolog.png" alt="Avatar">
 		</div> -->
-		<h2 class="text-center" style="color:#ffffff;"">INICIAR SESIÓN</h2>
+		<h2 class="text-center" style="color:#ffffff;">INICIAR SESIÓN</h2>
 		<br>
 		<div class="form-group">
 			<label style="color:#ffffff;font-size: 15px;">USUARIO</label>
