@@ -266,6 +266,8 @@
 					</div>
 				</div>
 			</div>
+			
+
 			<div class="panel panel-default">
 				<div class="gem-titulo ">
 					<label>Dirección</label>
@@ -347,7 +349,7 @@
 					<div class="row ">
 						<div class="col-md-3">
 							<div class="form-group">
-								<label class="grisfor">Grado máximo de estudios:</label>
+								<label class="grisfor">Grado máxiamo de estudios:</label>
 								<select class="btn btn-secondary btn-block" data-select2-id="1" tabindex="-1" aria-hidden="true" name="grado_estudios" style="border: 1px solid #c9c9c9; background: #cfcfcf;" readonly>
 									<option value="">Seleccionar</option>
 									<?php
@@ -414,6 +416,10 @@
 					</div>
 				</div>
 			</div>
+
+
+
+			
 				<div class="panel panel-default">
 					<div class="gem-titulo ">
 						<label>Datos del trabajador</label>

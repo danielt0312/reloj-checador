@@ -29,8 +29,6 @@
                 <th width="15%">Opciones</th>
             </tr>
         </thead>
-
-
     </table>
 </div>
 

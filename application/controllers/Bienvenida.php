@@ -7,11 +7,10 @@ class Bienvenida extends CI_Controller {
         $this->seguridad();      
     }
     public function index(){ 
-
         $data_nav['menu']           = $this->menu();
         $data_nav['submenu']        = $this->submenu();   
         $this->load->view('Plantilla/v_head');
-        $this->load->view('Plantilla/v_nav',$data_nav);     
+        $this->load->view('Plantilla/v_nav', $data_nav);     
         $this->load->view('Inicio/Bienvenida');
         $this->load->view('Plantilla/v_footer');
 

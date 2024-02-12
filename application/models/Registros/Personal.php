@@ -141,7 +141,7 @@ class Personal extends CI_Model{
        $this->db->from('rh_claves_personal');
        foreach($where as $indice => $valor){
             $this->db->where($indice, $valor);
-    }
+        }
        $cat = $this->db->get()->result_array();
         $this->db->select('nombre');
         $this->db->from('rh_cat_categorias');

@@ -52,7 +52,7 @@
 								<label class="blanco">
 									<!-- <i class="fa fa-user-circle" aria-hidden="true"></i>  -->
 									<?=$this->session->userdata('nombre').' '.$this->session->userdata('apellido_paterno').' '.$this->session->userdata('apellido_materno')?>
-								</label>
+									</label>
 
 								<li id="menu-item-285" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-285"><a href="<?=base_url()?>Bienvenida" aria-current="page">Inicio</a></li>
 

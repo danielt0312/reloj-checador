@@ -18,7 +18,6 @@ Class CatAreas extends CI_Model{
         }
         $consulta = $this->db->get();
         return $consulta->result();
-
     }
 
     public function listOptionAreas($where = null){

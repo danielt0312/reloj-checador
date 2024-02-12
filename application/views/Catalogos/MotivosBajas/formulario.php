@@ -10,7 +10,7 @@
     <a href="<?=base_url('Catalogos/MotivosBajas')?>" class="btn btn-azul" ><i class="fa fa-chevron-left" aria-hidden="true"></i> Regresar</a>
     <hr>
 
-    <div class="row">'
+    <div class="row">
         <?php
         $id = (isset($registro[0]->id)) ? $registro[0]->id : null;
         ?>

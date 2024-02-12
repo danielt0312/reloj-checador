@@ -16,7 +16,7 @@ class CredencializacionController extends CI_Controller{
             'Credencializacion/Lotes',
             'Credencializacion/RegistrosLote',
             'Catalogos/CentrosTrabajo',
-            'DataTables/DataLotes'
+            'DataTables/DataLotes',
         ]);
         $this->seguridad();
     }

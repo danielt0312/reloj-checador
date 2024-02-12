@@ -21,7 +21,6 @@ class Inicio extends CI_Controller {
             'Catalogos/Municipios',
         ]);
     }
-
     /**
         Controlador que carga la vista principal
     */
@@ -46,7 +45,6 @@ class Inicio extends CI_Controller {
 
          echo json_encode($data);
     }
- 
     public function webServiceCurp() {
         $curp = strtoupper($this->input->post('curp'));
         //$curp = 'CASA111016MTSSNRA6';
@@ -247,6 +245,7 @@ class Inicio extends CI_Controller {
             $this->index();
         }
     }
+
     public function logout()
     {
         unset($usuario);
